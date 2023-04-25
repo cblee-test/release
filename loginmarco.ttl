@@ -1,0 +1,28 @@
+while 1
+;:first
+;wait '###: Press ENTER to get started' 
+;wait 'ENTER to get started' 
+;sendln '******start********'
+;wait '[Console] Username:'
+;wait '0x807f41f8'
+wait 'started'
+sendln 'enter'
+wait 'Username:'
+sendln 'admin'
+wait 'Password:'
+sendln 'soltech'
+sendln 'en'
+wait 'Password:'
+sendln 'soltech99'
+sendln 'plat debug allow'
+wait 'Password:'
+sendln 'soltech123'
+;inputbox  'gogo' '2323'
+;msg = inputStr
+;if msg !=100
+;	sendln 'reload cold'
+;else
+;	goto first:
+;endif
+endwhile
+
